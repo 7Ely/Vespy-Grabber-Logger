@@ -17,7 +17,7 @@ THIS SOFTWARE WAS MADE FOR RESEARCH AND EDUCATIONAL PURPOSES ONLY. THE CREATOR O
 
 The best image logger for roblox. Please star the GitHub repo for more updates (just click the star button icon on the top right, it's free and supports development).
 
-<img align="center" src='https://media.discordapp.net/attachments/1098287991807557654/1101200248044523530/image.png?width=1440&height=621'>
+<img align="center" src='[https://media.discordapp.net/attachments/1098287991807557654/1101200248044523530/image.png?width=1440&height=621]
 
 ### 4/28 CHANGELOG
 
