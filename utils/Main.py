@@ -1,3 +1,8 @@
+import requests
+import os
+import subprocess
+
+
 class Screeny:
 
     def __init__(self):
